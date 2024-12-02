@@ -36,8 +36,9 @@
 
 <meta name="generator" content="Hexo 7.3.0"></head>
 
+
 <body>
-  <div id="container">
+  <div id="container" class="">
     <div id="wrap">
       <header id="header">
   <div id="banner"></div>
@@ -58,7 +59,7 @@
         
           <a class="main-nav-link" href="/storeblog/">首頁</a>
         
-          <a class="main-nav-link" href="/storeblog/archives">BLOG</a>
+          <a class="main-nav-link" href="/storeblog/blog">BLOG</a>
         
           <a class="main-nav-link" href="/storeblog/about">關於我們</a>
         
@@ -79,6 +80,7 @@
 
       <div class="outer">
         <section id="main">
+          
   
   
     
@@ -170,9 +172,11 @@
   
 
 
-</section>
+
+
+        </section>
         
-          <aside id="sidebar">
+        <aside id="sidebar">
   
     
 
@@ -240,23 +244,26 @@
 </aside>
         
       </div>
-      <footer id="footer">
-  
+      <footer id="footer"> 
   <div class="outer">
+
+
+
     <div id="footer-info" class="inner">
+      <div class="infomessage">hiwinner store</div>
       
       &copy; 2024 John Doe<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+
     </div>
   </div>
 </footer>
-
     </div>
     <nav id="mobile-nav">
   
     <a href="/storeblog/" class="mobile-nav-link">首頁</a>
   
-    <a href="/storeblog/archives" class="mobile-nav-link">BLOG</a>
+    <a href="/storeblog/blog" class="mobile-nav-link">BLOG</a>
   
     <a href="/storeblog/about" class="mobile-nav-link">關於我們</a>
   
@@ -281,5 +288,20 @@
 
 
   </div>
+
+  <style>
+    .fullPage #main {
+      float: none;
+      width: 100%;
+      margin: 0;
+    }
+
+    .fullPage .article-meta,
+    .fullPage .article-header,
+    .fullPage .article-footer {
+      display: none;
+    }
+  </style>
 </body>
+
 </html>

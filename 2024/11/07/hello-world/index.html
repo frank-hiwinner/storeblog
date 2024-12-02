@@ -38,8 +38,9 @@
 
 <meta name="generator" content="Hexo 7.3.0"></head>
 
+
 <body>
-  <div id="container">
+  <div id="container" class="">
     <div id="wrap">
       <header id="header">
   <div id="banner"></div>
@@ -60,7 +61,7 @@
         
           <a class="main-nav-link" href="/storeblog/">首頁</a>
         
-          <a class="main-nav-link" href="/storeblog/archives">BLOG</a>
+          <a class="main-nav-link" href="/storeblog/blog">BLOG</a>
         
           <a class="main-nav-link" href="/storeblog/about">關於我們</a>
         
@@ -80,7 +81,8 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main">
+          <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/storeblog/2024/11/07/hello-world/" class="article-date">
   <time class="dt-published" datetime="2024-11-07T02:51:17.588Z" itemprop="datePublished">2024-11-07</time>
@@ -119,7 +121,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://frank-hiwinner.github.io/storeblog/2024/11/07/hello-world/" data-id="cm3gvppfx0001iwvddi465ki0" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://frank-hiwinner.github.io/storeblog/2024/11/07/hello-world/" data-id="cm46fs9ac000140vdhpzq74ln" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -150,9 +152,11 @@
 </article>
 
 
-</section>
+
+
+        </section>
         
-          <aside id="sidebar">
+        <aside id="sidebar">
   
     
 
@@ -220,23 +224,26 @@
 </aside>
         
       </div>
-      <footer id="footer">
-  
+      <footer id="footer"> 
   <div class="outer">
+
+
+
     <div id="footer-info" class="inner">
+      <div class="infomessage">hiwinner store</div>
       
       &copy; 2024 John Doe<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+
     </div>
   </div>
 </footer>
-
     </div>
     <nav id="mobile-nav">
   
     <a href="/storeblog/" class="mobile-nav-link">首頁</a>
   
-    <a href="/storeblog/archives" class="mobile-nav-link">BLOG</a>
+    <a href="/storeblog/blog" class="mobile-nav-link">BLOG</a>
   
     <a href="/storeblog/about" class="mobile-nav-link">關於我們</a>
   
@@ -261,5 +268,20 @@
 
 
   </div>
+
+  <style>
+    .fullPage #main {
+      float: none;
+      width: 100%;
+      margin: 0;
+    }
+
+    .fullPage .article-meta,
+    .fullPage .article-header,
+    .fullPage .article-footer {
+      display: none;
+    }
+  </style>
 </body>
+
 </html>
