@@ -396,7 +396,8 @@ body {
   background         : url("images/kv001.jpg") center #000;
   background-size    : cover;
   z-index            : -1;
-  background-position: bottom center;
+  background-position: 0 32%;
+
 }
 
 #header-title {
